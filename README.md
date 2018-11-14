@@ -3,11 +3,17 @@ A Windows Resource Monitor in VBS with email alerts. Can run on-demand, from com
 
 ## Attributes
 NAME: Resource_Monitor.vbs
+
 TYPE: Visual Basic Script
+
 PRIMARY LANGUAGE: VBS
+
 AUTHOR: Justin Grimes
+
 ORIGINAL VERSION DATE: 7/16/2018
+
 CURRENT VERSION DATE: 11/14/2018
+
 VERSION: v1.0
 
 
