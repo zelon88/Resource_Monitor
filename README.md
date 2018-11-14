@@ -8,7 +8,7 @@ TYPE: Visual Basic Script
 
 PRIMARY LANGUAGE: VBS
 
-AUTHOR: Justin Grimes
+AUTHOR: Justin Grimes ([@zelon88](https://github.com/zelon88))
 
 ORIGINAL VERSION DATE: 7/16/2018
 
