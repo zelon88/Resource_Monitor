@@ -1,8 +1,8 @@
 # Resource_Monitor
 A Windows Resource Monitor in VBS with email alerts. Can run on-demand, from command line, or as a task.
 
+# Attributes
 NAME: Resource_Monitor.vbs
-
 TYPE: Visual Basic Script
 PRIMARY LANGUAGE: VBS
 AUTHOR: Justin Grimes
@@ -10,13 +10,16 @@ ORIGINAL VERSION DATE: 7/16/2018
 CURRENT VERSION DATE: 11/14/2018
 VERSION: v1.0
 
-DESCRIPTION: 
+
+# DESCRIPTION: 
 A simple script for monitoring the resource usage of workstations or servers and notifying IT if and when there is a problem.
 
-PURPOSE: 
+
+# PURPOSE: 
 To ensure smooth operation of the network and prevent downtime by creating visibility on device health for administrators.
 
-INSTALLATION INSTRUCTIONS: 
+
+# INSTALLATION INSTRUCTIONS: 
 1. Copy the entire "Resource_Monitor" folder into the "AutomationScripts" folder on SERVER (or any other network accesbible location).
 2. Add a scheduled task to SERVER to run "Resource_Monitor.vbs" several times daily with the "-t" argument.
 3. Use the -t argument when running from Task Scheduler. This will send emails to IT warning them about resource problems.
