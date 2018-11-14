@@ -496,7 +496,7 @@ If CreateDirectories() = TRUE Then
       End If
     End If
   End If
-  'When run as a task: detect if the machine's CPU is busy and notify IT.
+  'When run as a task: detect if the machine's disks are busy and notify IT.
   If DetectDiskBusy() <> FALSE And DetectDiskBusy() <> NULL Then
     logText = strComputerName & " is running with stressed disk resources." & VBNewLine & VBNewLine & DetectDiskBusy 
     If CreateLog(logText) = FALSE Then
