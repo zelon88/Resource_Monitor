@@ -1,0 +1,10 @@
+RESOURCE MONITOR
+
+Create an application to monitor the resource usage of networked devices.
+
+Check intermitently for...
+  -High CPU usage. (wmic cpu get loadpercentage) > 70
+  -High memory conspumption.
+  -Free disk space under 1gb.
+  -High network bandwidth usage.
+  -Logged in users > 1 (query user)

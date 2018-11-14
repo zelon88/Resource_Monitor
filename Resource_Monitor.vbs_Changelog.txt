@@ -1,0 +1,45 @@
+COMMIT - 11/14/2018
+v1.0 - Fix disk busy detection. Add dynamic email and company info.
+
+-Add toEmail, fromEmail, companyName, companyAbbreviation variables.
+-Fix the way disk busy events are detected, handled, and reported.
+-Shorten the way -ds and -ss switches are triggered.
+-Updated readme with switch information.
+
+--------------------
+COMMIT - 10/8/2018
+v0.9 - Add -ds and -ss switches.
+
+-Add -ds switch to select which disk to monitor.
+-Add -ss switch to select which CPU socket to monitor.
+
+--------------------
+COMMIT - 10/2/2018
+v0.8 - Fix bugs, add features.
+
+-Add a bunch of checks. This should be a very stable app. 
+-Improved logging.
+-Improved error catching and handling.
+-Add cache writer.
+-Add machine folders in cache directory for separated caches.
+-Move mailfile to machine specific cache folder.
+-Added several CPU related information metrics.
+
+--------------------
+COMMIT - 10/1/2018
+v0.7 - First alpha release.
+
+-Fix bug with old Warning.mail files not being cleaned before a new one is sent.
+-Make more friendly for running as NT AUTHORITY\SYSTEM user as a task.
+
+--------------------
+COMMIT - 10/1/2018
+v0.6 - First alpha release.
+
+-Implement -t argument for being run as a task.
+-Detects CPU specifications, CPU utilization, and memory consumption.
+-Creates log files and notification emails.
+-Requires sendmail.exe (AKA: fake sendmail for Windows)
+
+--------------------
+
