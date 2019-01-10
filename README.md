@@ -26,9 +26,9 @@ To ensure smooth operation of the network and prevent downtime by creating visib
 
 
 ## INSTALLATION INSTRUCTIONS: 
-1. Copy the entire "Resource_Monitor" folder into the "AutomationScripts" folder on SERVER (or any other network accesbible location).
+1. Copy the entire "Resource_Monitor" folder into the "AutomationScripts" folder on SERVER (or any other network accessible location).
 2. Add a scheduled task to SERVER to run "Resource_Monitor.vbs" several times daily with the "-t" argument.
-3. Use the -t argument when running from Task Scheduler. This will send emails to IT warning them about resource problems.
+3. Use the -t argument when running from Task Scheduler. This will send emails to IT, warning them about resource problems.
 4. Do not use the -t argument when running as a user. This will prevent emails from being sent and display the information instead. DOES NOT DISABLE LOGGING!
 5. -i  -Use to display as much information as possible to the user. Disables email notification.
 6. -ss  -Use to select which CPU socket to target for monitoring.
